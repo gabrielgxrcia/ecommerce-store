@@ -3,7 +3,7 @@
 import { ShoppingCart } from "lucide-react"
 
 import Currency from "@/components/ui/currency"
-import Button from "@/components/ui/Button"
+import Button from "./ui/button"
 import { Product } from "@/types"
 
 interface InfoProps {
