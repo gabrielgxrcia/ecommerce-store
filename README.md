@@ -1,34 +1,53 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# E-commerce Fullstack.
 
-## Getting Started
+Full Stack E-Commerce + Dashboard & CMS: Next.js 13 App Router, React, Tailwind, Prisma, MySQL
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+- Utilizei o Shadcn UI para o painel de administração!
+- Nosso painel de administração servirá como CMS, Admin e API, tudo em um só lugar!
+- Você poderá controlar múltiplos fornecedores/lojas através deste único CMS! (Por exemplo, você pode ter uma "Loja de Sapatos", uma "Loja de Laptops" e uma "Loja de Ternos", e nosso CMS irá gerar rotas de API individualmente para cada uma delas!)
+- Você poderá criar, atualizar e deletar categorias!
+- Você poderá criar, atualizar e deletar produtos!
+- Você poderá fazer upload de múltiplas imagens para os produtos e alterá-las sempre que desejar!
+- Você poderá criar, atualizar e deletar filtros como "Cor" e "Tamanho" e, em seguida, associá-los ao formulário de criação de "Produto".
+- Você poderá criar, atualizar e deletar "Painéis de Publicidade", que são grandes textos exibidos no topo da página. Você poderá vinculá-los a uma única categoria ou utilizá-los de forma independente (Nosso Admin gera rotas de API para todos esses casos!)
+- Você poderá pesquisar através de todas as categorias, produtos, tamanhos, cores, painéis de publicidade com paginação inclusa!
+- Você poderá controlar quais produtos são "destacados" para que sejam exibidos na página inicial!
+- Você poderá visualizar seus pedidos, vendas, etc.
+- Você poderá ver gráficos de sua receita, etc.
+- Você faz autenticação usando Clerk!
+- Criação de pedidos
+- Finalização de compra usando Stripe
+- Webhooks do Stripe
+- MySQL + Prisma + PlanetScale
+
+### Funcionamento
+
+```shell
+git clone https://github.com/gabrielgxrcia/ecommerce-store.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Instale os pacotes
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```shell
+npm i
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Arquivo .env
 
-## Learn More
+```js
+NEXT_PUBLIC_API_URL=
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Agradecimentos
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [ShadcnUI](https://ui.shadcn.com/)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Feedback
 
-## Deploy on Vercel
+Se você tiver algum comentário, entre em contato comigo em gabrielgrazeffi12@gmail.com
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Licença
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+[MIT](https://choosealicense.com/licenses/mit/)
